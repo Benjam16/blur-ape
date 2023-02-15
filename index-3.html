@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from blurapeyc.xyz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:27:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Ape YC</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- main css for template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- ===============>> Preloader start here <<================= -->
+    <div class="preloader">
+      <img src="assets/images/logo/preload.gif" alt="SuperHero">
+    </div>
+    <!-- ===============>> Preloader end here <<================= -->
+    <!-- ================> header section start here <================== -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl">
+          <a class="navbar-brand" href="index-3.html"></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler--icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" target="_blank" href="https://twitter.com/blurapeYC">Twitter</a>
+              <a class="nav-link" target="_blank" href="https://opensea.io/collection/blur-ape-yc">Opensea</a>
+              <a class="nav-link" target="_blank" href="https://etherscan.io/address/0x461ebd16c01556b40007f311c4415cdbaf7e91b9">Etherscan</a>
+            </div>
+            <div class="social-btns">
+              <a onClick="connect()" class="default-btn">
+                <span id="connectWallet">Connect</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ================> header section end here <================== -->
+    <!-- ================> Banner section start here <================== -->
+    <section id="home" class="banner" style="background-image: url(assets/images/banner/bannner.gif);">
+		<div class="centered">  
+			<div class="stack" style="--stacks: 3;">
+				<span style="--index: 0;"><p class="logoFont">BLUR APE YC</p></span>
+				<span style="--index: 1;"><p class="logoFont">BLUR APE YC</p></span>
+				<span style="--index: 2;"><p class="logoFont">BLUR APE YC</p></span>
+			</div>
+		</div>
+    </section>    
+	<section id="home">
+      <div class="container">
+        <div class="banner__wrapper">
+          <div class="row g-5 align-items-center justify-content-center">
+            <div class="col">
+              <div class="banner__content text-center" data-aos="fade-up" data-aos-duration="2000">
+				<br><br>
+				<h1>Mystery Crates</h1>
+                <p id="minted">10000 Supply</p>
+				<p>Mint price: 0.0028 per box </p>
+				<p>Free : <span id="freeMint">3</span>/wallet</p>
+				<div id="Connected">
+					<span class="text-center wrapper">
+					  <button class="default-btn" onclick="addMinus()">
+						<span class="fa fa-minus button-add-minus"></span>
+					  </button>
+					  <input onkeydown="return event.keyCode !== 69" id="quantity" class="default-btn input-amount responsive-content" value="20" type="number" style="text-align:center;" onchange="CheckValue()" />
+					  <button class="default-btn" onclick="addPlus()">
+						<span class="fa fa-plus button-add-plus"></span>
+					  </button>
+					</span>
+					<br>
+					<br>
+					<div class="text-center wrapper">
+					  <button onClick="mint()" class="default-btn">Mint Now</button>
+					</div>
+				</div>				
+				<div id="NotConnected">
+					<div class="text-center wrapper">
+					  <button onClick="connect()" class="default-btn">Connect Wallet</button>
+					</div>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================> Banner section end here <================== -->
+    <!-- ================> Collection section start here <================== -->
+    <section class="collection padding-top padding-bottom" id="collection">
+      <div class="container">
+        <div class="section-header aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
+          <div class="banner__content text-center">
+            <h2>BLUR APE YACHT CLUB</h2>
+            <p>Welcome! You are eligible to mint a Mystery Package Discover your new blurred ape-dentities that lies within these crates</p>
+          </div>
+        </div>
+        <div class="collection__wrapper">
+          <div class="collection__thumb">
+            <div class="swiper collection__thumb-slider-1 mb-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/1.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/2.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/3.png" alt="NFT Image">
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div class="swiper collection__thumb-slider-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/4.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/5.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/6.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/7.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/8.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/9.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/10.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/11.png" alt="NFT Image">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="collection__thumb-item">
+                    <img src="assets/images/collection/12.png" alt="NFT Image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+              <a href="https://opensea.io/collection/blur-ape-yc" class="default-btn">View On Opensea</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="home">
+      <div class="container">
+        <div class="banner__wrapper">
+          <div class="row g-5 align-items-center justify-content-center">
+            <div class="col">
+              <div class="banner__content text-center" data-aos="fade-up" data-aos-duration="2000">
+				<br><br>
+				<h1>Reveal Crates</h1>
+                <img style="height: 400px; width: 400px;" src="assets/images/banner/reveal.gif" alt="">
+				<br><br>
+				<div id="isRevealConnected">
+					<p>Token ID</p>
+					<span class="text-center wrapper">
+					  <button class="default-btn" onclick="Previous()">
+						<span class="fa fa-arrow-left button-add-minus"></span>
+					  </button>
+					  <input onkeydown="return event.keyCode !== 69" id="tokenId" class="default-btn input-amount responsive-content" value="0" type="number" style="text-align:center;" onchange="CheckValue()" />
+					  <button class="default-btn" onclick="Next()">
+						<span class="fa fa-arrow-right button-add-plus"></span>
+					  </button>
+					</span>
+					<br>
+					<br>
+					<div class="text-center wrapper">
+					  <button onClick="reveal()" class="default-btn">Reveal</button>
+					</div>
+				</div>				
+				<div id="isRevealNotConnected">
+					<div class="text-center wrapper">
+					  <button onClick="connect()" class="default-btn">Connect Wallet</button>
+					</div>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<br><br>
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="text-center py-4">
+          <p class=" mb-0">© 2022 Copyrights Blur Ape YC</p>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+    <script type="application/javascript" src="assets/js/ethers.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+
+<!-- Mirrored from blurapeyc.xyz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:27:59 GMT -->
+</html>

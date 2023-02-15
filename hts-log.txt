@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Wed, 15 Feb 2023 09:17:35 at https://blurapeyc.xyz/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://blurapeyc.xyz/ -O "/Users/oneilbenjamin/websites/bayc" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:24:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js
+09:27:57	Warning: 	HTML file (11146 bytes) retransferred due to lack of cache: https://blurapeyc.xyz/index.html
+09:27:59	Error: 	"Not Found" (404) at link https://blurapeyc.xyz/assets/webfonts/fa-v4compatibility.woff2 (from https://blurapeyc.xyz/assets/css/all.min.css)
+09:27:59	Error: 	"Not Found" (404) at link https://blurapeyc.xyz/assets/webfonts/fa-v4compatibility.ttf (from https://blurapeyc.xyz/assets/css/all.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 24 seconds : 49 links scanned, 53 files written (37844793 bytes overall) [21909706 bytes received at 35111 bytes/sec], 14938438 bytes transferred using HTTP compression in 45 files, ratio 69%, 4.3 requests per connection
+(2 errors, 2 warnings, 0 messages)
